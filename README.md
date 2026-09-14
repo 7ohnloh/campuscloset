@@ -26,6 +26,7 @@ Without AI credentials the app still runs: search falls back to keyword matching
 | --- | --- |
 | `AI_BASE_URL` | OpenAI-compatible base URL of the AI gateway (e.g. `https://…/v1`) |
 | `AI_API_KEY` | Gateway API key — server-side only, never commit |
-| `AI_MODEL` | Model name used for search, Q&A and listing drafts |
+| `AI_MODEL` | Model name used for search, Q&A and listing drafts (e.g. `gpt-5.6-terra`) |
+| `AI_REASONING_EFFORT` | Optional. e.g. `low` to make reasoning models respond faster |
 
 `GET /api/health` checks that the deployed site can reach the model (it never returns the key).

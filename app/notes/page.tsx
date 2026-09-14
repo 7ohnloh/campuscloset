@@ -79,7 +79,8 @@ export default function NotesPage() {
             code. I reviewed the work and made the product decisions.
           </li>
           <li>
-            <strong>Model powering search, Q&A and listing drafts:</strong> <code>{model}</code>, called through the provided AI gateway.
+            <strong>Model powering search, Q&A and listing drafts:</strong> <code>{model}</code>, called through the provided AI gateway&apos;s OpenAI-compatible endpoint. If the weekly GPT allowance runs out, the gateway
+            answers with DeepSeek V4.1 Flash instead, so some answers may come from that model.
           </li>
           <li>
             <strong>How search works:</strong> the server sends the query and the whole catalogue (small enough to fit) to the model. The

@@ -30,6 +30,9 @@ export async function chatJSON<T>(system: string, user: string): Promise<T> {
           { role: "user", content: user },
         ],
         response_format: { type: "json_object" },
+        // Optional: e.g. "low" to speed up reasoning models. Unset by default because not every
+        // model behind the gateway (e.g. the DeepSeek overflow) accepts it.
+        ...(process.env.AI_REASONING_EFFORT ? { reasoning_effort: process.env.AI_REASONING_EFFORT } : {}),
       }),
       signal: AbortSignal.timeout(45_000),
       cache: "no-store",
