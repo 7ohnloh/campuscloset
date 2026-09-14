@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L001", "stall_id": "S1", "title": "Uniqlo AIRism oversized tee",
+    "category": "tops", "subcategory": "t-shirt", "garment": "tee", "brand": "Uniqlo", "gender": "unisex",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 56, "length": 70 },
+    "colour": ["white"], "colour_hex": "#f5f5f0", "material": "AIRism cotton/polyester blend",
+    "condition": "like_new", "flaws": "none", "style_tags": ["oversized", "minimal", "basics"],
+    "occasion": ["casual", "lectures"], "price_sgd": 8, "meetup": "Aster Hall lobby", "listed_days_ago": 2,
+    "description": "Bought two, only wore this one a few times. Breathable, good for hot days walking between lectures."
+  },
+  {
+    "id": "L002", "stall_id": "S1", "title": "Zara high-waisted wide-leg trousers",
+    "category": "bottoms", "subcategory": "trousers", "garment": "trousers", "brand": "Zara", "gender": "womens",
+    "size_label": "S (EU 36)", "measurements_cm": { "waist_flat": 33, "inseam": 76 },
+    "colour": ["beige"], "colour_hex": "#cbb89d", "material": null,
+    "condition": "good", "flaws": null, "style_tags": ["minimal", "office"],
+    "occasion": ["interview", "internship", "casual"], "price_sgd": 15, "meetup": "Aster Hall lobby", "listed_days_ago": 5,
+    "description": "Flowy wide-leg pants, look smart with a blouse. Too long for me without heels."
+  },
+  {
+    "id": "L003", "stall_id": "S1", "title": "H&M linen button-up shirt",
+    "category": "tops", "subcategory": "shirt", "garment": "shirt", "brand": "H&M", "gender": "womens",
+    "size_label": "M", "measurements_cm": null,
+    "colour": ["sage green"], "colour_hex": "#9caf88", "material": "100% linen",
+    "condition": "good", "flaws": "small ink mark inside left cuff", "style_tags": ["breezy", "minimal"],
+    "occasion": ["casual", "outdoor"], "price_sgd": 10, "meetup": "Library Plaza", "listed_days_ago": 5,
+    "description": "Relaxed fit linen shirt, can wear open over a tank top. Wrinkles easily (it's linen)."
+  },
+  {
+    "id": "L004", "stall_id": "S1", "title": "Cotton On ribbed cardigan",
+    "category": "knitwear", "subcategory": "cardigan", "garment": "sweater", "brand": "Cotton On", "gender": "womens",
+    "size_label": "S", "measurements_cm": { "pit_to_pit": 46, "length": 52 },
+    "colour": ["cream"], "colour_hex": "#efe6d2", "material": "acrylic blend",
+    "condition": "fair", "flaws": "some pilling on the sleeves", "style_tags": ["cosy", "soft"],
+    "occasion": ["lectures", "aircon"], "price_sgd": 6, "meetup": "Aster Hall lobby", "listed_days_ago": 9,
+    "description": "My lecture theatre cardigan for 3 years. Well loved, still warm for freezing aircon."
+  },
+  {
+    "id": "L005", "stall_id": "S1", "title": "Mango satin midi skirt",
+    "category": "skirts", "subcategory": "midi skirt", "garment": "skirt", "brand": "Mango", "gender": "womens",
+    "size_label": "S", "measurements_cm": { "waist_flat": 34, "length": 78 },
+    "colour": ["emerald green"], "colour_hex": "#1f6f50", "material": "polyester satin",
+    "condition": "like_new", "flaws": "none", "style_tags": ["elegant"],
+    "occasion": ["hall formal", "dinner"], "price_sgd": 18, "meetup": "Aster Hall lobby", "listed_days_ago": 3,
+    "description": "Worn once to a hall dinner. Elastic back waistband, very flattering."
+  },
+  {
+    "id": "L006", "stall_id": "S1", "title": "Longchamp Le Pliage tote (medium)",
+    "category": "accessories", "subcategory": "bag", "garment": "bag", "brand": "Longchamp", "gender": "womens",
+    "size_label": "One size", "measurements_cm": null,
+    "colour": ["navy"], "colour_hex": "#1d2a4d", "material": "nylon with leather trim",
+    "condition": "good", "flaws": "corners slightly worn", "style_tags": ["classic", "uni bag"],
+    "occasion": ["lectures", "travel"], "price_sgd": 45, "meetup": "Library Plaza", "listed_days_ago": 12,
+    "description": "Fits a 13-inch laptop and notes. Authentic, bought in Paris."
+  },
+  {
+    "id": "L007", "stall_id": "S1", "title": "Adidas Samba OG sneakers",
+    "category": "shoes", "subcategory": "sneakers", "garment": "sneakers", "brand": "Adidas", "gender": "unisex",
+    "size_label": "UK 5 / EU 38", "measurements_cm": null,
+    "colour": ["white", "green"], "colour_hex": "#eef0ea", "material": "leather upper, gum sole",
+    "condition": "good", "flaws": "creasing on the toe box", "style_tags": ["retro", "streetwear"],
+    "occasion": ["casual"], "price_sgd": 55, "meetup": "Aster Hall lobby", "listed_days_ago": 1,
+    "description": "Cleaned before listing. Half size too small for me."
+  },
+  {
+    "id": "L008", "stall_id": "S1", "title": "Levi's 501 cropped jeans",
+    "category": "bottoms", "subcategory": "jeans", "garment": "jeans", "brand": "Levi's", "gender": "womens",
+    "size_label": "W26 L28", "measurements_cm": { "waist_flat": 34, "inseam": 66 },
+    "colour": ["mid blue"], "colour_hex": "#5b7fa6", "material": "100% cotton denim",
+    "condition": "good", "flaws": null, "style_tags": ["classic", "vintage"],
+    "occasion": ["casual"], "price_sgd": 28, "meetup": "Aster Hall lobby", "listed_days_ago": 7,
+    "description": "Straight leg, ankle length. Non-stretch denim so size up if between sizes."
+  },
+  {
+    "id": "L009", "stall_id": "S1", "title": "Engineering Orientation 2024 tee",
+    "category": "tops", "subcategory": "t-shirt", "garment": "tee", "brand": null, "gender": "unisex",
+    "size_label": "L", "measurements_cm": { "pit_to_pit": 57, "length": 73 },
+    "colour": ["grey"], "colour_hex": "#9a9a9a", "material": null,
+    "condition": "good", "flaws": "print slightly cracked", "style_tags": ["campus merch"],
+    "occasion": ["casual", "sports"], "price_sgd": 3, "meetup": "Engineering Quad", "listed_days_ago": 14,
+    "description": "Orientation group shirt. Good for sleeping in or sports day."
+  },
+  {
+    "id": "L010", "stall_id": "S2", "title": "Nike Tech Fleece hoodie",
+    "category": "tops", "subcategory": "hoodie", "garment": "hoodie", "brand": "Nike", "gender": "mens",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 55, "length": 68 },
+    "colour": ["black"], "colour_hex": "#1a1a1a", "material": "cotton/polyester tech fleece",
+    "condition": "like_new", "flaws": "none", "style_tags": ["streetwear", "athleisure"],
+    "occasion": ["casual", "lectures"], "price_sgd": 38, "meetup": "Birch Hall lobby", "listed_days_ago": 2,
+    "description": "Full zip, slim fit. Worn maybe 5 times. Retail was $139."
+  },
+  {
+    "id": "L011", "stall_id": "S2", "title": "Stussy basic logo tee",
+    "category": "tops", "subcategory": "t-shirt", "garment": "tee", "brand": "Stussy", "gender": "unisex",
+    "size_label": "L", "measurements_cm": { "pit_to_pit": 58, "length": 74 },
+    "colour": ["washed brown"], "colour_hex": "#7a5c43", "material": "100% cotton",
+    "condition": "good", "flaws": "light fading from washing", "style_tags": ["streetwear"],
+    "occasion": ["casual"], "price_sgd": 22, "meetup": "Birch Hall lobby", "listed_days_ago": 4,
+    "description": "Boxy fit. The fading gives it a nice vintage look honestly."
+  },
+  {
+    "id": "L012", "stall_id": "S2", "title": "Carhartt WIP Detroit jacket",
+    "category": "outerwear", "subcategory": "jacket", "garment": "jacket", "brand": "Carhartt WIP", "gender": "mens",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 60, "length": 66 },
+    "colour": ["tan"], "colour_hex": "#b98a4e", "material": "cotton canvas with blanket lining",
+    "condition": "good", "flaws": null, "style_tags": ["workwear", "streetwear"],
+    "occasion": ["casual", "cool weather"], "price_sgd": 60, "meetup": "Birch Hall lobby", "listed_days_ago": 6,
+    "description": "Heavy jacket, honestly too warm for Singapore. Great if you're travelling somewhere cold."
+  },
+  {
+    "id": "L013", "stall_id": "S2", "title": "Dickies 874 work pants",
+    "category": "bottoms", "subcategory": "trousers", "garment": "trousers", "brand": "Dickies", "gender": "mens",
+    "size_label": "W32 L30", "measurements_cm": { "waist_flat": 41, "inseam": 76 },
+    "colour": ["khaki"], "colour_hex": "#c3b091", "material": "polyester/cotton twill",
+    "condition": "good", "flaws": "none", "style_tags": ["workwear", "skater"],
+    "occasion": ["casual"], "price_sgd": 18, "meetup": "Birch Hall lobby", "listed_days_ago": 6,
+    "description": "Classic straight fit, stiff fabric that softens with washes."
+  },
+  {
+    "id": "L014", "stall_id": "S2", "title": "New Balance 550 sneakers",
+    "category": "shoes", "subcategory": "sneakers", "garment": "sneakers", "brand": "New Balance", "gender": "mens",
+    "size_label": "US 9 / EU 42.5", "measurements_cm": null,
+    "colour": ["white", "grey"], "colour_hex": "#e8e8e8", "material": "leather",
+    "condition": "fair", "flaws": "yellowing on midsole, some scuffs", "style_tags": ["retro"],
+    "occasion": ["casual"], "price_sgd": 40, "meetup": "Student Union atrium", "listed_days_ago": 10,
+    "description": "Daily beaters for a year. Still comfy, priced for the wear."
+  },
+  {
+    "id": "L015", "stall_id": "S2", "title": "Baggy carpenter jeans",
+    "category": "bottoms", "subcategory": "jeans", "garment": "jeans", "brand": null, "gender": "mens",
+    "size_label": "32", "measurements_cm": { "waist_flat": 42, "inseam": 79, "leg_opening": 25 },
+    "colour": ["light blue"], "colour_hex": "#8fb3d9", "material": null,
+    "condition": "good", "flaws": null, "style_tags": ["Y2K", "baggy", "skater"],
+    "occasion": ["casual"], "price_sgd": 16, "meetup": "Birch Hall lobby", "listed_days_ago": 3,
+    "description": "Thrifted in Bangkok. Very wide leg, hammer loop on the side."
+  },
+  {
+    "id": "L016", "stall_id": "S2", "title": "Nike Club fleece joggers",
+    "category": "bottoms", "subcategory": "joggers", "garment": "trousers", "brand": "Nike", "gender": "mens",
+    "size_label": "M", "measurements_cm": null,
+    "colour": ["heather grey"], "colour_hex": "#b0b0b0", "material": null,
+    "condition": "good", "flaws": "drawstring missing", "style_tags": ["athleisure", "comfy"],
+    "occasion": ["lectures", "gym"], "price_sgd": 12, "meetup": "Birch Hall lobby", "listed_days_ago": 8,
+    "description": "Comfy joggers. Elastic waist still fine without the drawstring."
+  },
+  {
+    "id": "L017", "stall_id": "S2", "title": "Black bucket hat",
+    "category": "accessories", "subcategory": "hat", "garment": "cap", "brand": null, "gender": "unisex",
+    "size_label": "One size", "measurements_cm": null,
+    "colour": ["black"], "colour_hex": "#1c1c1c", "material": "cotton",
+    "condition": "like_new", "flaws": "none", "style_tags": ["streetwear", "Y2K"],
+    "occasion": ["casual", "outdoor"], "price_sgd": 7, "meetup": "Birch Hall lobby", "listed_days_ago": 8,
+    "description": "Plain bucket hat, good sun cover for outdoor events."
+  },
+  {
+    "id": "L018", "stall_id": "S3", "title": "Zara faux leather jacket",
+    "category": "outerwear", "subcategory": "jacket", "garment": "jacket", "brand": "Zara", "gender": "womens",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 50, "length": 55 },
+    "colour": ["black"], "colour_hex": "#151515", "material": "polyurethane faux leather, polyester lining",
+    "condition": "good", "flaws": "small scratch near left pocket", "style_tags": ["edgy", "minimal"],
+    "occasion": ["night out", "cool weather"], "price_sgd": 25, "meetup": "Cedar Hall lobby", "listed_days_ago": 4,
+    "description": "Biker style, cropped. Brought it for Europe, barely wore it in Singapore."
+  },
+  {
+    "id": "L019", "stall_id": "S3", "title": "Mango linen-blend midi dress",
+    "category": "dresses", "subcategory": "midi dress", "garment": "dress", "brand": "Mango", "gender": "womens",
+    "size_label": "S", "measurements_cm": { "pit_to_pit": 44, "length": 118 },
+    "colour": ["terracotta"], "colour_hex": "#c1633f", "material": "linen/viscose blend",
+    "condition": "like_new", "flaws": "none", "style_tags": ["boho", "summery"],
+    "occasion": ["beach", "dinner", "outdoor wedding"], "price_sgd": 22, "meetup": "Cedar Hall lobby", "listed_days_ago": 2,
+    "description": "Light and airy, adjustable straps. Perfect for hot weather."
+  },
+  {
+    "id": "L020", "stall_id": "S3", "title": "Bershka mom jeans",
+    "category": "bottoms", "subcategory": "jeans", "garment": "jeans", "brand": "Bershka", "gender": "womens",
+    "size_label": "EU 38", "measurements_cm": { "waist_flat": 36, "inseam": 70 },
+    "colour": ["mid blue"], "colour_hex": "#4f6f95", "material": null,
+    "condition": "good", "flaws": null, "style_tags": ["Y2K", "casual"],
+    "occasion": ["casual"], "price_sgd": 12, "meetup": "Cedar Hall lobby", "listed_days_ago": 4,
+    "description": "High waist, tapered leg. Goes with everything."
+  },
+  {
+    "id": "L021", "stall_id": "S3", "title": "Pull&Bear argyle knit vest",
+    "category": "knitwear", "subcategory": "vest", "garment": "sweater", "brand": "Pull&Bear", "gender": "womens",
+    "size_label": "M", "measurements_cm": null,
+    "colour": ["brown", "cream"], "colour_hex": "#8b6b4a", "material": null,
+    "condition": "good", "flaws": null, "style_tags": ["preppy", "vintage"],
+    "occasion": ["lectures"], "price_sgd": 9, "meetup": "Cedar Hall lobby", "listed_days_ago": 4,
+    "description": "Cute over a white shirt. Dark academia vibes."
+  },
+  {
+    "id": "L022", "stall_id": "S3", "title": "Birkenstock Arizona sandals",
+    "category": "shoes", "subcategory": "sandals", "garment": "sandals", "brand": "Birkenstock", "gender": "unisex",
+    "size_label": "EU 39", "measurements_cm": null,
+    "colour": ["taupe"], "colour_hex": "#a89b8c", "material": "suede upper, cork footbed",
+    "condition": "good", "flaws": "footbed moulded from wear", "style_tags": ["comfy", "minimal"],
+    "occasion": ["casual", "beach"], "price_sgd": 35, "meetup": "Cedar Hall lobby", "listed_days_ago": 6,
+    "description": "Broken in already, which is the best part of Birks."
+  },
+  {
+    "id": "L023", "stall_id": "S3", "title": "Massimo Dutti wool-blend coat",
+    "category": "outerwear", "subcategory": "coat", "garment": "coat", "brand": "Massimo Dutti", "gender": "womens",
+    "size_label": "S", "measurements_cm": { "pit_to_pit": 48, "length": 95 },
+    "colour": ["camel"], "colour_hex": "#c19a6b", "material": "60% wool, 40% polyamide",
+    "condition": "like_new", "flaws": "none", "style_tags": ["classic", "elegant"],
+    "occasion": ["winter", "travel", "exchange"], "price_sgd": 70, "meetup": "Cedar Hall lobby", "listed_days_ago": 1,
+    "description": "Long tailored coat, kept me warm in a Madrid winter. Dry cleaned."
+  },
+  {
+    "id": "L024", "stall_id": "S3", "title": "Floral silky scarf",
+    "category": "accessories", "subcategory": "scarf", "garment": "scarf", "brand": null, "gender": "womens",
+    "size_label": "One size", "measurements_cm": null,
+    "colour": ["blue", "white"], "colour_hex": "#6a8fc7", "material": null,
+    "condition": "like_new", "flaws": null, "style_tags": ["vintage", "elegant"],
+    "occasion": ["dinner"], "price_sgd": 5, "meetup": "Cedar Hall lobby", "listed_days_ago": 6,
+    "description": "Can be a hair scarf or tied on a bag."
+  },
+  {
+    "id": "L025", "stall_id": "S4", "title": "Love, Bonito satin slip dress",
+    "category": "dresses", "subcategory": "slip dress", "garment": "dress", "brand": "Love, Bonito", "gender": "womens",
+    "size_label": "S", "measurements_cm": { "pit_to_pit": 40, "length": 105 },
+    "colour": ["champagne"], "colour_hex": "#e3cfa8", "material": "polyester satin",
+    "condition": "like_new", "flaws": "none", "style_tags": ["elegant", "minimal"],
+    "occasion": ["hall formal", "dinner"], "price_sgd": 24, "meetup": "Aster Hall lobby", "listed_days_ago": 3,
+    "description": "Worn once to Aster Hall formal. Bias cut, adjustable straps."
+  },
+  {
+    "id": "L026", "stall_id": "S4", "title": "ASOS sequin mini dress",
+    "category": "dresses", "subcategory": "mini dress", "garment": "dress", "brand": "ASOS", "gender": "womens",
+    "size_label": "UK 8", "measurements_cm": null,
+    "colour": ["silver"], "colour_hex": "#c0c0c8", "material": null,
+    "condition": "good", "flaws": "a few sequins missing at the hem", "style_tags": ["glam", "party"],
+    "occasion": ["hall formal", "party"], "price_sgd": 18, "meetup": "Aster Hall lobby", "listed_days_ago": 5,
+    "description": "Sparkly! The missing sequins aren't noticeable unless you look closely."
+  },
+  {
+    "id": "L027", "stall_id": "S4", "title": "Off-shoulder chiffon maxi gown",
+    "category": "dresses", "subcategory": "gown", "garment": "dress", "brand": null, "gender": "womens",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 45, "length": 140 },
+    "colour": ["burgundy"], "colour_hex": "#6d1a2e", "material": "chiffon with lining",
+    "condition": "like_new", "flaws": "none", "style_tags": ["elegant", "romantic"],
+    "occasion": ["hall formal", "wedding"], "price_sgd": 35, "meetup": "Aster Hall lobby", "listed_days_ago": 2,
+    "description": "Floor length on me (160cm) with 5cm heels. Hidden side zip."
+  },
+  {
+    "id": "L028", "stall_id": "S4", "title": "Charles & Keith strappy heels",
+    "category": "shoes", "subcategory": "heels", "garment": "heels", "brand": "Charles & Keith", "gender": "womens",
+    "size_label": "EU 37", "measurements_cm": null,
+    "colour": ["black"], "colour_hex": "#141414", "material": "synthetic",
+    "condition": "good", "flaws": "small scuff on right heel", "style_tags": ["elegant"],
+    "occasion": ["hall formal", "dinner"], "price_sgd": 15, "meetup": "Aster Hall lobby", "listed_days_ago": 5,
+    "description": "7cm block heel, easier to walk in than stilettos."
+  },
+  {
+    "id": "L029", "stall_id": "S4", "title": "Charles & Keith gold clutch",
+    "category": "accessories", "subcategory": "bag", "garment": "bag", "brand": "Charles & Keith", "gender": "womens",
+    "size_label": "One size", "measurements_cm": null,
+    "colour": ["gold"], "colour_hex": "#c9a64a", "material": null,
+    "condition": "like_new", "flaws": null, "style_tags": ["glam"],
+    "occasion": ["hall formal", "wedding"], "price_sgd": 10, "meetup": "Aster Hall lobby", "listed_days_ago": 5,
+    "description": "Fits a phone, lipstick and cards. Comes with detachable chain."
+  },
+  {
+    "id": "L030", "stall_id": "S4", "title": "Cotton On floral wrap dress",
+    "category": "dresses", "subcategory": "wrap dress", "garment": "dress", "brand": "Cotton On", "gender": "womens",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 47, "length": 100 },
+    "colour": ["navy", "floral"], "colour_hex": "#2b3a67", "material": "viscose",
+    "condition": "good", "flaws": "none", "style_tags": ["feminine"],
+    "occasion": ["brunch", "church", "outdoor wedding"], "price_sgd": 16, "meetup": "Library Plaza", "listed_days_ago": 9,
+    "description": "Flowy wrap dress, knee length. Breathable for daytime events."
+  },
+  {
+    "id": "L031", "stall_id": "S4", "title": "Modern kebaya top",
+    "category": "tops", "subcategory": "blouse", "garment": "shirt", "brand": null, "gender": "womens",
+    "size_label": "S", "measurements_cm": null,
+    "colour": ["pastel pink"], "colour_hex": "#f1c6d3", "material": null,
+    "condition": "like_new", "flaws": null, "style_tags": ["traditional", "festive"],
+    "occasion": ["Hari Raya", "festive", "cultural night"], "price_sgd": 20, "meetup": "Aster Hall lobby", "listed_days_ago": 11,
+    "description": "Worn for our hall's cultural night. Lace details on the sleeves."
+  },
+  {
+    "id": "L032", "stall_id": "S5", "title": "Uniqlo slim-fit smart blazer",
+    "category": "formal", "subcategory": "blazer", "garment": "blazer", "brand": "Uniqlo", "gender": "mens",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 53, "length": 72, "shoulder": 45 },
+    "colour": ["navy"], "colour_hex": "#1f2a44", "material": "polyester blend with stretch",
+    "condition": "like_new", "flaws": "none", "style_tags": ["smart", "minimal"],
+    "occasion": ["interview", "internship", "career fair", "presentation"], "price_sgd": 35, "meetup": "Student Union atrium", "listed_days_ago": 1,
+    "description": "Wore it for my internship interviews and final presentation. Machine washable."
+  },
+  {
+    "id": "L033", "stall_id": "S5", "title": "G2000 charcoal suit trousers",
+    "category": "bottoms", "subcategory": "trousers", "garment": "trousers", "brand": "G2000", "gender": "mens",
+    "size_label": "W32", "measurements_cm": { "waist_flat": 41, "inseam": 78 },
+    "colour": ["charcoal"], "colour_hex": "#3a3a3c", "material": "polyester/viscose",
+    "condition": "good", "flaws": "hem let down once, faint line visible", "style_tags": ["formal"],
+    "occasion": ["interview", "internship"], "price_sgd": 14, "meetup": "Student Union atrium", "listed_days_ago": 1,
+    "description": "Flat front, slim fit. Pairs with a navy or grey blazer."
+  },
+  {
+    "id": "L034", "stall_id": "S5", "title": "Uniqlo white non-iron dress shirt",
+    "category": "tops", "subcategory": "shirt", "garment": "shirt", "brand": "Uniqlo", "gender": "mens",
+    "size_label": "M (collar 39cm)", "measurements_cm": null,
+    "colour": ["white"], "colour_hex": "#fafafa", "material": "cotton, non-iron finish",
+    "condition": "good", "flaws": "slight yellowing inside collar", "style_tags": ["formal"],
+    "occasion": ["interview", "internship", "presentation"], "price_sgd": 8, "meetup": "Student Union atrium", "listed_days_ago": 1,
+    "description": "The shirt everyone needs for interviews. Yellowing only visible inside."
+  },
+  {
+    "id": "L035", "stall_id": "S5", "title": "Ralph Lauren oxford shirt",
+    "category": "tops", "subcategory": "shirt", "garment": "shirt", "brand": "Ralph Lauren", "gender": "mens",
+    "size_label": "L", "measurements_cm": { "pit_to_pit": 58, "length": 76 },
+    "colour": ["light blue"], "colour_hex": "#a9c6e8", "material": "100% cotton oxford",
+    "condition": "good", "flaws": "none", "style_tags": ["smart casual", "preppy"],
+    "occasion": ["interview", "internship", "lectures"], "price_sgd": 25, "meetup": "Student Union atrium", "listed_days_ago": 3,
+    "description": "Button-down collar. Smart enough for office, relaxed enough for class."
+  },
+  {
+    "id": "L036", "stall_id": "S5", "title": "Brown leather derby shoes",
+    "category": "shoes", "subcategory": "formal shoes", "garment": "formal shoes", "brand": null, "gender": "mens",
+    "size_label": "EU 43", "measurements_cm": null,
+    "colour": ["dark brown"], "colour_hex": "#4a2f1f", "material": "leather",
+    "condition": "good", "flaws": "resoled once", "style_tags": ["classic", "formal"],
+    "occasion": ["interview", "hall formal"], "price_sgd": 30, "meetup": "Student Union atrium", "listed_days_ago": 3,
+    "description": "Polished before listing. Fairly wide fit."
+  },
+  {
+    "id": "L037", "stall_id": "S5", "title": "Set of 3 ties",
+    "category": "accessories", "subcategory": "tie", "garment": "tie", "brand": null, "gender": "mens",
+    "size_label": "One size", "measurements_cm": null,
+    "colour": ["navy", "burgundy", "grey"], "colour_hex": "#34405e", "material": null,
+    "condition": "like_new", "flaws": null, "style_tags": ["formal"],
+    "occasion": ["interview", "hall formal"], "price_sgd": 6, "meetup": "Student Union atrium", "listed_days_ago": 3,
+    "description": "Navy stripe, burgundy solid, grey pattern. Selling as a set."
+  },
+  {
+    "id": "L038", "stall_id": "S1", "title": "Mango tailored black blazer",
+    "category": "formal", "subcategory": "blazer", "garment": "blazer", "brand": "Mango", "gender": "womens",
+    "size_label": "S", "measurements_cm": { "pit_to_pit": 45, "length": 62 },
+    "colour": ["black"], "colour_hex": "#111111", "material": null,
+    "condition": "like_new", "flaws": "none", "style_tags": ["smart", "minimal"],
+    "occasion": ["interview", "internship", "career fair"], "price_sgd": 22, "meetup": "Aster Hall lobby", "listed_days_ago": 2,
+    "description": "Single button, slightly structured shoulders. Got me through career fair season."
+  },
+  {
+    "id": "L039", "stall_id": "S5", "title": "Uniqlo slim chinos",
+    "category": "bottoms", "subcategory": "chinos", "garment": "trousers", "brand": "Uniqlo", "gender": "mens",
+    "size_label": "W30", "measurements_cm": { "waist_flat": 38, "inseam": 76 },
+    "colour": ["navy"], "colour_hex": "#243049", "material": "cotton with 2% elastane",
+    "condition": "good", "flaws": null, "style_tags": ["smart casual"],
+    "occasion": ["internship", "lectures", "presentation"], "price_sgd": 12, "meetup": "Student Union atrium", "listed_days_ago": 3,
+    "description": "Stretchy and comfortable, fine for business casual offices."
+  },
+  {
+    "id": "L040", "stall_id": "S6", "title": "90s colourblock windbreaker",
+    "category": "outerwear", "subcategory": "windbreaker", "garment": "jacket", "brand": null, "gender": "unisex",
+    "size_label": "L", "measurements_cm": { "pit_to_pit": 62, "length": 70 },
+    "colour": ["teal", "purple"], "colour_hex": "#3a8f8f", "material": "nylon shell",
+    "condition": "fair", "flaws": "small tear near zip, neatly repaired", "style_tags": ["vintage", "90s", "Y2K"],
+    "occasion": ["casual", "rainy"], "price_sgd": 20, "meetup": "Cedar Hall lobby", "listed_days_ago": 1,
+    "description": "Genuine 90s piece. Light, packs into a bag for sudden rain."
+  },
+  {
+    "id": "L041", "stall_id": "S6", "title": "Butterfly print baby tee",
+    "category": "tops", "subcategory": "crop top", "garment": "tee", "brand": null, "gender": "womens",
+    "size_label": "S", "measurements_cm": { "pit_to_pit": 40, "length": 45 },
+    "colour": ["pink"], "colour_hex": "#f4a6c1", "material": "cotton/spandex",
+    "condition": "like_new", "flaws": "none", "style_tags": ["Y2K", "cropped"],
+    "occasion": ["casual", "party"], "price_sgd": 9, "meetup": "Cedar Hall lobby", "listed_days_ago": 2,
+    "description": "Stretchy fitted crop tee with glitter butterfly print."
+  },
+  {
+    "id": "L042", "stall_id": "S6", "title": "Miss Sixty low-rise flare jeans",
+    "category": "bottoms", "subcategory": "jeans", "garment": "jeans", "brand": "Miss Sixty", "gender": "womens",
+    "size_label": "27", "measurements_cm": { "waist_flat": 37, "inseam": 80 },
+    "colour": ["dark wash"], "colour_hex": "#2f3e5c", "material": null,
+    "condition": "good", "flaws": null, "style_tags": ["Y2K", "flare"],
+    "occasion": ["casual"], "price_sgd": 18, "meetup": "Cedar Hall lobby", "listed_days_ago": 2,
+    "description": "Actual early 2000s. Low rise, long flare, great with platform shoes."
+  },
+  {
+    "id": "L043", "stall_id": "S6", "title": "Vintage 90s band tee",
+    "category": "tops", "subcategory": "t-shirt", "garment": "tee", "brand": null, "gender": "unisex",
+    "size_label": "XL", "measurements_cm": { "pit_to_pit": 60, "length": 75 },
+    "colour": ["faded black"], "colour_hex": "#2e2e2e", "material": "100% cotton",
+    "condition": "fair", "flaws": "fading and a small hole at the hem", "style_tags": ["vintage", "grunge", "oversized"],
+    "occasion": ["casual", "concert"], "price_sgd": 25, "meetup": "Cedar Hall lobby", "listed_days_ago": 7,
+    "description": "Single-stitch tour tee, soft and thin from age. Oversized on most people."
+  },
+  {
+    "id": "L044", "stall_id": "S6", "title": "Mustard corduroy shacket",
+    "category": "outerwear", "subcategory": "overshirt", "garment": "shirt", "brand": null, "gender": "unisex",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 57, "length": 72 },
+    "colour": ["mustard"], "colour_hex": "#c9a13b", "material": "cotton corduroy",
+    "condition": "good", "flaws": null, "style_tags": ["vintage", "70s"],
+    "occasion": ["casual", "aircon"], "price_sgd": 19, "meetup": "Cedar Hall lobby", "listed_days_ago": 5,
+    "description": "Shirt-jacket, wear open over a tee. Warm enough for cold lecture theatres."
+  },
+  {
+    "id": "L045", "stall_id": "S6", "title": "Lilac mini shoulder bag",
+    "category": "accessories", "subcategory": "bag", "garment": "bag", "brand": null, "gender": "womens",
+    "size_label": "One size", "measurements_cm": null,
+    "colour": ["lilac"], "colour_hex": "#c8a2c8", "material": "faux leather",
+    "condition": "good", "flaws": "slight peeling on the strap", "style_tags": ["Y2K"],
+    "occasion": ["party", "casual"], "price_sgd": 12, "meetup": "Cedar Hall lobby", "listed_days_ago": 5,
+    "description": "Baguette style, fits phone and keys only."
+  },
+  {
+    "id": "L046", "stall_id": "S6", "title": "Red tartan mini skirt",
+    "category": "skirts", "subcategory": "mini skirt", "garment": "skirt", "brand": null, "gender": "womens",
+    "size_label": "S", "measurements_cm": { "waist_flat": 33, "length": 38 },
+    "colour": ["red", "tartan"], "colour_hex": "#a8323a", "material": null,
+    "condition": "like_new", "flaws": null, "style_tags": ["Y2K", "preppy", "grunge"],
+    "occasion": ["casual", "party"], "price_sgd": 10, "meetup": "Cedar Hall lobby", "listed_days_ago": 9,
+    "description": "Pleated, side zip. Built-in shorts underneath."
+  },
+  {
+    "id": "L047", "stall_id": "S6", "title": "Oversized vintage knit sweater",
+    "category": "knitwear", "subcategory": "sweater", "garment": "sweater", "brand": null, "gender": "unisex",
+    "size_label": "L", "measurements_cm": { "pit_to_pit": 64, "length": 68 },
+    "colour": ["forest green"], "colour_hex": "#2f5d3a", "material": "wool blend",
+    "condition": "good", "flaws": "one small moth hole on the back", "style_tags": ["vintage", "oversized", "cosy"],
+    "occasion": ["cool weather", "aircon"], "price_sgd": 15, "meetup": "Cedar Hall lobby", "listed_days_ago": 10,
+    "description": "Chunky cable knit. Too warm for outdoors here, perfect for travel."
+  },
+  {
+    "id": "L048", "stall_id": "S7", "title": "Nike Dri-FIT running tee",
+    "category": "activewear", "subcategory": "t-shirt", "garment": "tee", "brand": "Nike", "gender": "mens",
+    "size_label": "M", "measurements_cm": null,
+    "colour": ["electric blue"], "colour_hex": "#1e6fd9", "material": "polyester",
+    "condition": "good", "flaws": "none", "style_tags": ["sporty"],
+    "occasion": ["running", "gym"], "price_sgd": 8, "meetup": "Sports Centre entrance", "listed_days_ago": 4,
+    "description": "Quick-dry, no smell. Washed and ready."
+  },
+  {
+    "id": "L049", "stall_id": "S7", "title": "Lululemon Pace Breaker shorts 7\"",
+    "category": "activewear", "subcategory": "shorts", "garment": "shorts", "brand": "Lululemon", "gender": "mens",
+    "size_label": "M", "measurements_cm": null,
+    "colour": ["black"], "colour_hex": "#181818", "material": "polyester/Lycra with liner",
+    "condition": "like_new", "flaws": "none", "style_tags": ["sporty"],
+    "occasion": ["gym", "running"], "price_sgd": 25, "meetup": "Sports Centre entrance", "listed_days_ago": 4,
+    "description": "Lined shorts with zip pocket. Wore twice, wrong length for me."
+  },
+  {
+    "id": "L050", "stall_id": "S7", "title": "Adidas Ultraboost running shoes",
+    "category": "shoes", "subcategory": "running shoes", "garment": "sneakers", "brand": "Adidas", "gender": "mens",
+    "size_label": "US 10 / EU 44", "measurements_cm": null,
+    "colour": ["grey"], "colour_hex": "#8c8c8c", "material": "Primeknit upper, Boost midsole",
+    "condition": "fair", "flaws": "outsole worn, roughly 400km of running", "style_tags": ["sporty"],
+    "occasion": ["running", "gym"], "price_sgd": 35, "meetup": "Sports Centre entrance", "listed_days_ago": 12,
+    "description": "Still cushy for casual wear or gym, but not for serious mileage anymore."
+  },
+  {
+    "id": "L051", "stall_id": "S7", "title": "Birch Hall Inter-Hall Games 2025 jersey",
+    "category": "activewear", "subcategory": "jersey", "garment": "tee", "brand": null, "gender": "unisex",
+    "size_label": "L", "measurements_cm": { "pit_to_pit": 56, "length": 76 },
+    "colour": ["maroon"], "colour_hex": "#7a1f2b", "material": null,
+    "condition": "good", "flaws": null, "style_tags": ["campus merch", "sporty"],
+    "occasion": ["sports", "inter-hall games"], "price_sgd": 5, "meetup": "Birch Hall lobby", "listed_days_ago": 12,
+    "description": "Basketball jersey, number 23 on the back."
+  },
+  {
+    "id": "L052", "stall_id": "S7", "title": "Decathlon waterproof rain jacket",
+    "category": "outerwear", "subcategory": "rain jacket", "garment": "jacket", "brand": "Decathlon", "gender": "unisex",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 56, "length": 70 },
+    "colour": ["yellow"], "colour_hex": "#f2c230", "material": "waterproof polyester",
+    "condition": "good", "flaws": "none", "style_tags": ["outdoor", "sporty"],
+    "occasion": ["rainy", "hiking", "travel"], "price_sgd": 15, "meetup": "Sports Centre entrance", "listed_days_ago": 6,
+    "description": "Hood folds into collar. Used for a hiking trip in Taiwan."
+  },
+  {
+    "id": "L053", "stall_id": "S1", "title": "Gymshark leggings",
+    "category": "activewear", "subcategory": "leggings", "garment": "trousers", "brand": "Gymshark", "gender": "womens",
+    "size_label": "S", "measurements_cm": null,
+    "colour": ["dusty rose"], "colour_hex": "#c99a9e", "material": null,
+    "condition": "like_new", "flaws": null, "style_tags": ["sporty"],
+    "occasion": ["gym", "yoga"], "price_sgd": 18, "meetup": "Aster Hall lobby", "listed_days_ago": 6,
+    "description": "High waisted, seamless. Only worn a couple of times."
+  },
+  {
+    "id": "L054", "stall_id": "S8", "title": "Uniqlo Ultra Light Down jacket",
+    "category": "outerwear", "subcategory": "puffer", "garment": "puffer", "brand": "Uniqlo", "gender": "womens",
+    "size_label": "M", "measurements_cm": { "pit_to_pit": 50, "length": 62 },
+    "colour": ["black"], "colour_hex": "#1b1b1b", "material": "90% down, 10% feather; nylon shell",
+    "condition": "like_new", "flaws": "none", "style_tags": ["minimal", "packable"],
+    "occasion": ["winter", "exchange", "travel"], "price_sgd": 30, "meetup": "Aster Hall lobby", "listed_days_ago": 1,
+    "description": "Packs into its own pouch. Good layering piece; alone it's enough for around 5-10°C."
+  },
+  {
+    "id": "L055", "stall_id": "S8", "title": "The North Face long padded coat",
+    "category": "outerwear", "subcategory": "puffer", "garment": "coat", "brand": "The North Face", "gender": "unisex",
+    "size_label": "L", "measurements_cm": { "pit_to_pit": 62, "length": 100 },
+    "colour": ["black"], "colour_hex": "#1b1b1b", "material": "synthetic insulation, polyester shell",
+    "condition": "good", "flaws": "small stain on right cuff", "style_tags": ["streetwear", "winter"],
+    "occasion": ["winter", "exchange", "snow"], "price_sgd": 85, "meetup": "Aster Hall lobby", "listed_days_ago": 1,
+    "description": "Knee length with hood. Survived -12°C in Seoul. Stain might come out with proper cleaning."
+  },
+  {
+    "id": "L056", "stall_id": "S8", "title": "Uniqlo HEATTECH thermal set",
+    "category": "innerwear", "subcategory": "thermals", "garment": "tee", "brand": "Uniqlo", "gender": "womens",
+    "size_label": "M", "measurements_cm": null,
+    "colour": ["grey"], "colour_hex": "#9d9d9d", "material": "HEATTECH polyester/acrylic/rayon",
+    "condition": "like_new", "flaws": "none", "style_tags": ["basics"],
+    "occasion": ["winter", "exchange"], "price_sgd": 10, "meetup": "Aster Hall lobby", "listed_days_ago": 2,
+    "description": "Long-sleeve top plus leggings. Washed. Essential base layer for winter."
+  },
+  {
+    "id": "L057", "stall_id": "S8", "title": "Grey houndstooth scarf",
+    "category": "accessories", "subcategory": "scarf", "garment": "scarf", "brand": null, "gender": "unisex",
+    "size_label": "One size", "measurements_cm": null,
+    "colour": ["grey"], "colour_hex": "#8a8a8a", "material": null,
+    "condition": "good", "flaws": null, "style_tags": ["classic"],
+    "occasion": ["winter"], "price_sgd": 6, "meetup": "Aster Hall lobby", "listed_days_ago": 2,
+    "description": "Long scarf, bought at a Myeongdong street stall."
+  },
+  {
+    "id": "L058", "stall_id": "S8", "title": "Black leather Chelsea boots",
+    "category": "shoes", "subcategory": "boots", "garment": "boots", "brand": null, "gender": "womens",
+    "size_label": "EU 38", "measurements_cm": null,
+    "colour": ["black"], "colour_hex": "#171717", "material": "leather upper, rubber sole",
+    "condition": "good", "flaws": "creasing, heels slightly worn", "style_tags": ["minimal"],
+    "occasion": ["winter", "rainy", "travel"], "price_sgd": 28, "meetup": "Aster Hall lobby", "listed_days_ago": 3,
+    "description": "Good grip for icy pavements. Pull-on with elastic sides."
+  },
+  {
+    "id": "L059", "stall_id": "S8", "title": "Fleece-lined black jeans",
+    "category": "bottoms", "subcategory": "jeans", "garment": "jeans", "brand": null, "gender": "womens",
+    "size_label": "28", "measurements_cm": { "waist_flat": 37, "inseam": 72 },
+    "colour": ["black"], "colour_hex": "#202020", "material": "cotton denim with fleece lining",
+    "condition": "good", "flaws": "none", "style_tags": ["warm", "basics"],
+    "occasion": ["winter", "exchange"], "price_sgd": 14, "meetup": "Aster Hall lobby", "listed_days_ago": 3,
+    "description": "Look like normal skinny jeans but super warm inside. Way too hot for Singapore."
+  },
+  {
+    "id": "L060", "stall_id": "S8", "title": "Knit beanie and gloves set",
+    "category": "accessories", "subcategory": "hat and gloves", "garment": "cap", "brand": null, "gender": "unisex",
+    "size_label": "One size", "measurements_cm": null,
+    "colour": ["cream"], "colour_hex": "#ece3cf", "material": "acrylic",
+    "condition": "like_new", "flaws": null, "style_tags": ["cosy"],
+    "occasion": ["winter", "snow"], "price_sgd": 5, "meetup": "Aster Hall lobby", "listed_days_ago": 2,
+    "description": "Touchscreen-friendly fingertips on the gloves."
+  }
+]
