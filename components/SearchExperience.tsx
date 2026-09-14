@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { capitalise } from "@/lib/catalogue";
 import type { Listing, SearchResponse } from "@/lib/types";
 import { ListingCard } from "./ListingCard";
@@ -29,6 +29,10 @@ export function SearchExperience({
   const [category, setCategory] = useState<string | null>(null);
 
   const byId = useMemo(() => new Map(listings.map((l) => [l.id, l])), [listings]);
+  const resultsRef = useRef<HTMLElement>(null);
+
+  // On phones the results start below the fold, so bring them into view.
+  const scrollToResults = () => resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
 
   async function search(q: string) {
     const trimmed = q.trim();
@@ -36,6 +40,7 @@ export function SearchExperience({
     setQuery(trimmed);
     setLoading(true);
     setError(null);
+    requestAnimationFrame(scrollToResults);
     try {
       const res = await fetch("/api/search", {
         method: "POST",
@@ -113,7 +118,7 @@ export function SearchExperience({
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 pb-16" aria-live="polite">
+      <section ref={resultsRef} className="mx-auto max-w-6xl scroll-mt-20 px-4 pb-16" aria-live="polite">
         {error && <p className="mb-4 rounded-xl bg-red-50 p-3 text-sm text-red-800">{error}</p>}
 
         {loading && (
