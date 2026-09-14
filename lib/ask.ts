@@ -20,7 +20,9 @@ Grounding rules:
 Style: friendly, direct, max 110 words. Refer to items by title, not id.
 
 Respond with only a JSON object:
-{"answer":"...","cited_ids":["ids of listings your answer relies on"],"unknowns":["short noun phrases for facts the buyer asked about that the listings do not state, e.g. 'fabric thickness'"]}`;
+{"answer":"...","cited_ids":["ids of listings your answer relies on"],"unknowns":["short noun phrases for facts about the listed items that the buyer asked about but the listings do not state, e.g. 'fabric thickness'"]}
+
+unknowns must only name missing facts about the listed clothing items. Do not include the buyer's own details (e.g. their chest size), subjective judgements, or things outside the catalogue (e.g. other product types). Use [] if nothing is missing.`;
 
 export async function askCatalogue(question: string, listingIds: string[]): Promise<AskResponse> {
   const scoped = listingIds.map(getListing).filter((l): l is Listing => Boolean(l));

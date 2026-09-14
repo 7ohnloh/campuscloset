@@ -11,7 +11,8 @@ The seller gives a rough, messy description. Turn it into a structured listing d
 Rules:
 - Only fill a field if the seller's text states it or it is directly obvious (e.g. "zara blazer" -> brand "Zara", category "formal"). Otherwise use null (or [] for lists).
 - Never invent brand, material, measurements, flaws or price.
-- flaws: use "none" only if the seller says there are no flaws; null if they don't mention it.
+- flaws: record any wear the seller describes (e.g. "faded", "pilling", "small stain"). If they only rule out something specific (e.g. "no stains"), write exactly that ("no stains"). Use "none" only if they say there are no flaws at all; null if they don't mention flaws or wear.
+- Hoodies, t-shirts, shirts and blouses are "tops"; sweaters and cardigans are "knitwear"; blazers and suits are "formal"; coats and jackets are "outerwear".
 - category must be one of: ${CATEGORIES.join(", ")}.
 - garment must be one of: ${GARMENTS.join(", ")} (pick the closest shape).
 - condition must be one of: ${CONDITIONS.join(", ")}. Map "worn once/barely worn" -> like_new, "used but fine" -> good, "visible wear" -> fair.

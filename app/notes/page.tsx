@@ -109,7 +109,7 @@ export default function NotesPage() {
           </li>
           <li>
             <strong>Embeddings / vector database:</strong> with {listings.length} listings, the model can read the whole catalogue, which is
-            simpler and gave better matches for vague queries. At thousands of listings I would pre-filter with structured filters and
+            simpler and handled vague queries (e.g. &quot;something to wear to a hackathon&quot;) well in my testing. At thousands of listings I would pre-filter with structured filters and
             embeddings, then send only the top candidates to the model.
           </li>
           <li>
@@ -120,7 +120,7 @@ export default function NotesPage() {
 
       <Section n={5} title="Known issues and unfinished parts">
         <ul>
-          <li>AI search takes a few seconds because the model reads the whole catalogue on each query.</li>
+          <li>AI search takes around 6–10 seconds because the model reads the whole catalogue on each query.</li>
           <li>The interpretation chips on search results are display-only; you can&apos;t remove a filter by tapping it yet.</li>
           <li>Rate limiting is in memory, so it resets per server instance. It&apos;s a guard for a demo, not a real quota.</li>
           <li>Fit answers can only use the measurements listed; the assistant can&apos;t guarantee fit.</li>
