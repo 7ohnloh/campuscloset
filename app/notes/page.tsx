@@ -12,7 +12,7 @@ function Section({ n, title, children }: { n: number; title: string; children: R
         <span className="mr-2 text-muted">{n}.</span>
         {title}
       </h2>
-      <div className="mt-3 space-y-3 leading-relaxed [&_li]:ml-5 [&_li]:list-disc [&_li]:pl-1">{children}</div>
+      <div className="mt-3 space-y-3 leading-relaxed [&_li]:ml-5 [&_li]:list-disc [&_li]:pl-1 [&_ul]:space-y-2">{children}</div>
     </section>
   );
 }
@@ -27,104 +27,174 @@ export default function NotesPage() {
       <p className="text-sm text-muted">Notes for reviewers</p>
       <h1 className="font-display text-4xl">About CampusCloset</h1>
       <p className="mt-3 text-muted">
-        Quick links: <Link className="underline" href="/">browse & search</Link> ·{" "}
-        <Link className="underline" href="/listings/L023">an item with Q&A</Link> ·{" "}
-        <Link className="underline" href="/compare">compare</Link> · <Link className="underline" href="/sell">AI-assisted selling</Link>
+        Try it: <Link className="underline" href="/">browse &amp; search</Link> ·{" "}
+        <Link className="underline" href="/listings/L010">ask if an item fits</Link> ·{" "}
+        <Link className="underline" href="/compare">compare</Link> · <Link className="underline" href="/sell">sell with AI</Link>
       </p>
 
-      <Section n={1} title="What I built and who it's for">
+      <Section n={1} title="What I built and who it is for">
         <p>
-          CampusCloset is an online flea market where university students buy and sell second-hand clothes. Students clear out their
-          wardrobes before graduating, going on exchange or after an internship, and other students pick things up cheaply at a campus
-          meetup spot. Each seller has a &quot;stall&quot;, which keeps the flea-market feel.
+          I built CampusCloset, an online flea market for clothes. It is a marketplace where students in a school can sell their
+          second-hand clothes to other students, and meet somewhere on campus to hand them over. Each seller has their own
+          &quot;stall&quot;, like at a real flea market.
         </p>
-        <p>A buyer can:</p>
+        <p>
+          It is meant for students and young people. My intention is to make buying and selling second-hand clothes more accessible.
+          There are platforms like Carousell, but they cover every kind of item. I wanted something specific to clothes, where every
+          listing has the details that matter when buying clothes: size, measurements, material, condition and flaws.
+        </p>
+        <p>
+          The idea also came from my own experience. When I buy clothes online, I sometimes get a little lazy to measure myself, so I
+          go to the comments to see what other people say about the sizing. But I am not always able to find opinions on sizing. So I
+          added an AI assistant on every listing that answers questions like &quot;Will this fit me? I&apos;m 175cm, 70kg&quot; using the
+          seller&apos;s measurements, and tells you honestly when the listing doesn&apos;t have enough information.
+        </p>
+        <p>In the demo you can:</p>
         <ul>
-          <li>Browse listings on a phone without signing in, filter by category, and open an item page.</li>
+          <li>Browse listings on your phone without signing in, filter by category and open any item.</li>
           <li>
-            Search in natural language, e.g. &quot;hall formal dress under $30&quot; or &quot;warm jacket for my winter exchange&quot;. The page
-            shows how the query was understood and a short reason for each match.
+            Search the way you would describe it to a friend, e.g. &quot;hall formal dress under $30&quot; or &quot;warm jacket for my winter
+            exchange&quot;.
           </li>
-          <li>Ask questions about an item (fit, flaws, weather, occasions) and get answers grounded in that listing.</li>
-          <li>Add up to three items to Compare and ask the assistant which suits them better.</li>
-          <li>Try the seller side: describe an item in messy text and let the AI draft a structured listing.</li>
+          <li>Ask questions about an item: sizing, flaws, material, weather, what to wear it to.</li>
+          <li>Add up to three items to Compare and ask which one suits you better.</li>
+          <li>Try selling: type a rough description of an item and the AI drafts the listing for you.</li>
         </ul>
       </Section>
 
-      <Section n={2} title="What is seeded, simulated or limited">
+      <Section n={2} title="What is seeded, simulated or otherwise limited">
         <ul>
           <li>
-            <strong>Seeded catalogue:</strong> {listings.length} listings across {stalls.length} fictional seller stalls on a fictional
-            campus. The sellers, halls and meetup spots are made up. Brands are real names used for realism only.
+            <strong>The listings are made up.</strong> There are {listings.length} seeded listings from {stalls.length} fictional student
+            sellers on a fictional campus. The sellers, halls and meetup spots don&apos;t exist. Real brand names (Uniqlo, Zara, etc.) are
+            only used to make the listings feel realistic.
           </li>
           <li>
-            <strong>Deliberate gaps:</strong> {noMaterial} listings have no material and {noMeasurements} have no measurements, and some
-            don&apos;t mention flaws. This mirrors real second-hand listings and shows how the assistant handles missing facts.
+            <strong>Some details are missing on purpose.</strong> {noMaterial} listings don&apos;t say the material, {noMeasurements} have no
+            measurements, and some don&apos;t mention flaws. Real second-hand listings are often like this, and it lets you see the
+            assistant say &quot;not stated in the listing&quot; instead of guessing.
           </li>
           <li>
-            <strong>Images:</strong> items use tinted garment illustrations instead of photos.
+            <strong>No real photos.</strong> Each item shows a simple clothing illustration in the item&apos;s colour.
           </li>
           <li>
-            <strong>Simulated:</strong> &quot;Reserve &amp; arrange meetup&quot;, &quot;Ask the seller&quot; and &quot;Publish listing&quot; don&apos;t send,
-            save or charge anything. There are no accounts, payments or messaging.
+            <strong>Simulated buttons.</strong> &quot;Reserve &amp; arrange meetup&quot;, &quot;Ask the seller&quot; and &quot;Publish listing&quot;
+            don&apos;t send, save or charge anything. Each one says so when you press it.
           </li>
-          <li>The compare tray is stored in your browser only.</li>
+          <li>
+            <strong>No accounts, payments, chat or database.</strong> A listing you create on the Sell page is not saved, and the compare
+            list is only stored in your own browser.
+          </li>
         </ul>
       </Section>
 
-      <Section n={3} title="AI tools and models">
+      <Section n={3} title="AI coding tools and the models behind search and Q&A">
+        <p>
+          <strong>Building it:</strong> I used Claude Code to help me code the application based on my requirements: a marketplace for
+          second-hand clothes, with an aesthetic that resembles a flea market. It also helped write the seeded listings, test the AI
+          features on the deployed site and adjust the prompts when answers weren&apos;t right. The code is on GitHub and I used Vercel
+          to deploy it.
+        </p>
+        <p>
+          <strong>The model:</strong> search, Q&amp;A and the selling helper all use <code>{model}</code>, called through the CognitioLabs
+          AI gateway. If the gateway&apos;s weekly GPT allowance runs out, it automatically answers with DeepSeek V4.1 Flash instead, so
+          some answers might come from that model.
+        </p>
+        <p>
+          <strong>How search works:</strong>
+        </p>
         <ul>
           <li>
-            <strong>Coding tool:</strong> Claude Code (Anthropic) helped plan the project, write the seed catalogue and write most of the
-            code. I reviewed the work and made the product decisions.
+            The website&apos;s server sends your search and the whole catalogue to the model. With only {listings.length} listings,
+            everything fits in one request.
           </li>
           <li>
-            <strong>Model powering search, Q&A and listing drafts:</strong> <code>{model}</code>, called through the provided AI gateway&apos;s OpenAI-compatible endpoint. If the weekly GPT allowance runs out, the gateway
-            answers with DeepSeek V4.1 Flash instead, so some answers may come from that model.
+            The model splits what you asked for into strict requirements (budget, size, category, men&apos;s/women&apos;s) and preferences
+            (style, occasion, warmth). It returns the best matches with a one-line reason for each.
           </li>
           <li>
-            <strong>How search works:</strong> the server sends the query and the whole catalogue (small enough to fit) to the model. The
-            model separates hard filters (price, size, category, gender) from soft preferences (style, occasion, warmth) and returns
-            ranked listing IDs with reasons. The server then checks the output against the real catalogue: unknown IDs are dropped, and
-            anything over the stated budget is removed unless the model explains it relaxed the filter. If the model is unavailable, a
-            keyword search with simple price/size/gender parsing takes over and the page says so.
+            The server double-checks the answer against the real catalogue. It removes any item that doesn&apos;t exist or is over your
+            budget, so the AI can&apos;t show made-up listings.
+          </li>
+          <li>If the AI is unavailable, a basic keyword search takes over and the page tells you.</li>
+        </ul>
+        <p>
+          <strong>How the Q&amp;A stays honest:</strong>
+        </p>
+        <ul>
+          <li>The assistant only receives the listings you are looking at, and is told to answer only from them.</li>
+          <li>
+            If a detail is missing, it has to say &quot;not stated&quot; instead of guessing. It also knows that a seller saying &quot;no
+            flaws&quot; is different from not mentioning flaws.
           </li>
           <li>
-            <strong>How Q&A stays grounded:</strong> the model only receives the relevant listings. It is told that a missing field means
-            &quot;not stated&quot;, that &quot;flaws: none&quot; differs from flaws not mentioned, and to label general clothing knowledge. It
-            returns which listings it used and which facts it couldn&apos;t find. Those show as &quot;Not stated in the listing&quot; tags.
-          </li>
-          <li>
-            <strong>Security:</strong> the API key lives only in a server-side environment variable. The browser only talks to this
-            site&apos;s own API routes, which have basic per-IP rate limiting and input length limits.
+            For sizing, it compares your details with the seller&apos;s measurements but never promises a fit. Missing details appear as
+            &quot;Not stated in the listing&quot; tags, with a (simulated) button to ask the seller.
           </li>
         </ul>
+        <p>
+          <strong>Keeping the key safe:</strong> the API key is stored as a server-side environment variable on Vercel. The browser only
+          talks to this website&apos;s own API, never to the AI gateway directly, so reviewers never need a key. The API also has a basic
+          limit on how many requests one visitor can make per minute.
+        </p>
       </Section>
 
       <Section n={4} title="What I chose not to build, and why">
         <ul>
           <li>
-            <strong>Accounts, payments, chat and real listings storage:</strong> the brief doesn&apos;t require them, and they would take time
-            away from search and Q&A quality.
+            <strong>3D body scanning:</strong> I wanted users to scan themselves so they could get size recommendations based on their
+            real measurements. This is complex to do well and needs camera access, so the demo uses the seller&apos;s measurements
+            instead.
           </li>
           <li>
-            <strong>Embeddings / vector database:</strong> with {listings.length} listings, the model can read the whole catalogue, which is
-            simpler and handled vague queries (e.g. &quot;something to wear to a hackathon&quot;) well in my testing. At thousands of listings I would pre-filter with structured filters and
-            embeddings, then send only the top candidates to the model.
+            <strong>3D styling:</strong> I also wanted a 3D model where users can try combining clothes into outfits, or ask the AI for
+            styling recommendations.
           </li>
           <li>
-            <strong>Photo uploads and image understanding:</strong> useful for sellers, but out of scope for the time available.
+            <strong>Accounts, payments and chat:</strong> the brief doesn&apos;t require them, and I wanted to spend the time on search and
+            Q&amp;A.
+          </li>
+          <li>
+            <strong>Embeddings / a vector database:</strong> with {listings.length} listings, the model can read the whole catalogue, which
+            was simpler and handled vague searches like &quot;something to wear to a hackathon&quot; well when I tested it. With thousands of
+            listings, I would filter first and only send the closest matches to the model.
           </li>
         </ul>
+        <p>
+          The main reason is time. I was busy for most of the weekend and only had one morning to complete this assignment, so I focused
+          on the four areas in the brief: the marketplace, search, Q&amp;A and this page.
+        </p>
       </Section>
 
       <Section n={5} title="Known issues and unfinished parts">
         <ul>
-          <li>AI search takes around 6–10 seconds because the model reads the whole catalogue on each query.</li>
-          <li>The interpretation chips on search results are display-only; you can&apos;t remove a filter by tapping it yet.</li>
-          <li>Rate limiting is in memory, so it resets per server instance. It&apos;s a guard for a demo, not a real quota.</li>
-          <li>Fit answers can only use the measurements listed; the assistant can&apos;t guarantee fit.</li>
-          <li>The AI can still occasionally make mistakes; results are checked against the catalogue, but reasons are model-written.</li>
+          <li>
+            <strong>Search is slow:</strong> AI search takes around 6–10 seconds, because the model reads the whole catalogue every time.
+          </li>
+          <li>
+            <strong>Sizing help depends on the seller:</strong> {noMeasurements} of the {listings.length} listings have no measurements,
+            so for those the assistant can only suggest asking the seller. It can never guarantee a fit.
+          </li>
+          <li>
+            <strong>The AI can still make mistakes:</strong> results are checked against the catalogue, but the reasons and answers are
+            written by the model. Answers may also be less accurate if the gateway switches to the backup model.
+          </li>
+          <li>
+            <strong>Search tags can&apos;t be edited:</strong> the tags showing how your search was understood are display-only. You
+            can&apos;t tap one to remove that filter yet.
+          </li>
+          <li>
+            <strong>The keyword backup is basic:</strong> it only matches words and a small list of synonyms, so results are much weaker
+            than AI search.
+          </li>
+          <li>
+            <strong>Limited abuse protection:</strong> the request limit resets whenever the server restarts. It stops casual abuse, but it
+            isn&apos;t a real usage quota.
+          </li>
+          <li>
+            <strong>Not fully tested:</strong> I checked the site on a phone-sized screen, but haven&apos;t tested it with screen readers or
+            on many different devices.
+          </li>
         </ul>
       </Section>
     </article>
